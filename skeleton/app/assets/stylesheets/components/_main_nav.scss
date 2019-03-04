@@ -1,0 +1,55 @@
+.main-nav {
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    height:40px;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+display: flex;
+font-family: sans-serif;
+font-size: 8px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.left-nav > ul > li {
+margin-right: 3px;
+padding:4px 3px;
+border-radius: 3px;
+}
+
+.right-nav > ul > li {
+margin-right: 3px;
+padding:4px 3px;
+border-radius: 3px;
+}
+
+.right-nav > ul > li:last-of-type {
+    
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+background:lightgrey;
+}
+
+.right-nav > ul > li:hover{
+    background:lightblue;
+    color:white;
+   
+}
+
+.left-nav span {
+
+}
+
+.left-nav i {
+    margin-right: 4px
+}
+.right-nav i {
+
+}
